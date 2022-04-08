@@ -15,11 +15,17 @@ Setup anaconda environment:
 
 ### VRSpriteMaker.py setup
 Input parameters using flags:
+
 --stripecount OR -n to specify the number of stripes. Default: 5
+
 --resolution OR -r to specify the resolution. Default: 400, 300
+
 --stripewidth OR -w to specify the width of the stripe in pixels. Default: 10
+
 --stripecolor OR -s to specify the color of the stripe in rgb. Default: 0,0,255 aka blue
+
 --backgroundcolor OR -b to specify the color of the background in rgb. Default: 50,50,50 aka gray
+
 
 Program will output a png in the directory it was run in.
 
