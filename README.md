@@ -6,8 +6,11 @@ You can run it from a python file or a python notebook
 ## Setup
 
 Setup anaconda environment:
+
 ```conda create -n VRSpriteMaker python=3```
+
 ```conda activate VRSpriteMaker```
+
 ```pip install Pillow```
 
 ### VRSpriteMaker.py setup
@@ -21,9 +24,12 @@ Input parameters using flags:
 Program will output a png in the directory it was run in.
 
 Example usage:
+
 ```python VRSpriteMaker.py -n 7 -r 400,300 -s 0,0,255 -b 50,50,50```
 
 ### VRSpriteMaker.ipynb setup
 Open jupyter notebook:
+
 ```jupyter notebook```
+
 There you can modify the parameters and run the file to produce a png.
